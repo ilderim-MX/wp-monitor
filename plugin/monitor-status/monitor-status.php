@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WP Monitor
- * Plugin URI:  https://github.com/arroyoj02-git/wp-monitor
+ * Plugin URI:  https://github.com/ilderim-mx/wp-monitor
  * Description: Envía el estado del sitio (actualizaciones, respaldos, disco, SSL y seguridad) a un panel de monitoreo central. Solo necesita el servidor y un código.
  * Version:     1.1.0
  * Requires PHP: 7.4

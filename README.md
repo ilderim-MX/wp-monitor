@@ -82,7 +82,7 @@ El plugin **envía** su reporte al panel (modelo *push*). El sitio no expone nin
 ### 1. Descargar y configurar
 
 ```bash
-git clone https://github.com/arroyoj02-git/wp-monitor.git
+git clone https://github.com/ilderim-mx/wp-monitor.git
 cd wp-monitor/server
 mkdir -p data && sudo chown 10001:10001 data
 cp .env.example .env && chmod 600 .env
