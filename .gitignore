@@ -1,0 +1,9 @@
+# Datos y secretos: nunca al repositorio
+server/data/
+server/.env
+*.db
+*.db-wal
+*.db-shm
+sites.txt
+__pycache__/
+*.zip

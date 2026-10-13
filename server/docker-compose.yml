@@ -1,0 +1,11 @@
+services:
+  wp-monitor:
+    build: .
+    container_name: wp-monitor
+    restart: unless-stopped
+    mem_limit: 128m
+    env_file: .env
+    ports:
+      - "127.0.0.1:8082:8000"
+    volumes:
+      - ./data:/data
